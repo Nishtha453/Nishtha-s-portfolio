@@ -134,32 +134,31 @@ document.addEventListener("DOMContentLoaded", () => {
       <hr>
     `,
 
-    research: () => `
-      Two research papers currently in progress: <br><br>
+research: () => `
+  Two research papers currently in progress: <br><br>
 
-      <span style="color:${themeColors.textColor};">
-        Do LLMs Exhibit the Allais Paradox?
-      </span>
-      &nbsp;<span style="color:#ff0;">[In Progress]</span> <br>
-      &nbsp;&nbsp;Investigating whether large language models exhibit the Allais paradox —
-      a classical violation of expected utility theory — across English and Hindi, <br>
-      &nbsp;&nbsp;and whether chain-of-thought prompting reduces irrational decision patterns. <br>
-      &nbsp;&nbsp;120 API calls across 4 LLMs, 2 languages, 5 scenarios, 3 repetitions. <br>
-      &nbsp;&nbsp;Target venues: <span style="color:#0cf;">NeurIPS 2026 Workshop · AAAI 2027</span> <br>
-      <br>
+  <span style="color:${themeColors.textColor};">
+    Robustness of Object Detectors on Indian Road Categories Under Visual Corruption
+  </span>
+  &nbsp;<span style="color:#ff0;">[In Progress]</span> <br>
+  &nbsp;&nbsp;Empirical study on the DriveIndia dataset (66K images, 24 categories, TiHAN-IIT Hyderabad): <br>
+  &nbsp;&nbsp;measuring per-class AP degradation under fog, motion blur, and low-light for India-specific <br>
+  &nbsp;&nbsp;categories (auto-rickshaws, cattle, handcarts) vs globally-standard ones (cars, buses, pedestrians). <br>
+  &nbsp;&nbsp;Inference-heavy — fully reproducible on free-tier Colab. Dataset contributor: arXiv:2507.19912 <br>
+  &nbsp;&nbsp;Target venues: <span style="color:#0cf;">ICVGIP 2026 · arXiv preprint Q4 2026</span> <br>
+  <br>
 
-      <span style="color:${themeColors.textColor};">
-        Financial Vulnerability Index for Informal Economies
-      </span>
-      &nbsp;<span style="color:#ff0;">[In Progress]</span> <br>
-      &nbsp;&nbsp;Proposing and validating a behaviorally-grounded composite measure
-      for informal household financial health. <br>
-      &nbsp;&nbsp;ML classifiers on PLFS &amp; CMIE panel data with SHAP-based feature
-      attribution across household typologies. <br>
-      &nbsp;&nbsp;Target venues:
-      <span style="color:#0cf;">ACM COMPASS · Development Engineering (Springer) · AAAI AI for Social Impact</span> <br>
-      <hr>
-    `,
+  <span style="color:${themeColors.textColor};">
+    VLM Calibration Under Conflicting Cultural Cues
+  </span>
+  &nbsp;<span style="color:#ff0;">[In Progress]</span> <br>
+  &nbsp;&nbsp;Investigating epistemic overconfidence in Vision-Language Models when visual evidence <br>
+  &nbsp;&nbsp;and textual context carry culturally conflicting signals — a failure mode disproportionately <br>
+  &nbsp;&nbsp;affecting non-Western deployment contexts. In collaboration with Suparnojit Sarkar. <br>
+  &nbsp;&nbsp;Building on arXiv:2511.17004 · Native Hindi fluency as core research advantage. <br>
+  &nbsp;&nbsp;Target venues: <span style="color:#0cf;">arXiv preprint Q4 2026 · ETH SSRF / DAAD WISE applications</span> <br>
+  <hr>
+`,
 
     skills: () => `
       <span style="color:${themeColors.textColor};">Languages</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -181,15 +180,17 @@ document.addEventListener("DOMContentLoaded", () => {
       <hr>
     `,
 
-    achievements: () => `
-      ★ &nbsp;Qualified JEE Advanced — Top 2% nationally (1.2M+ candidates) <br>
-      ★ &nbsp;Qualified ISI Kolkata &amp; IISER entrance examinations <br>
-      ★ &nbsp;Backend Engineering Intern @ FlyRank AI <br>
-      ★ &nbsp;Head — Dev Club, GeeksforGeeks RGIPT Chapter <br>
-      ★ &nbsp;Teaching Head — Arpan, RGIPT Social Council <br>
-      ★ &nbsp;Community Intern — RGIPT Outreach Program (Jan–May 2025) <br>
-      <hr>
-    `,
+achievements: () => `
+  ★ &nbsp;1st Place — AAPG SDEC 2026 ($5,000 award) <br>
+  ★ &nbsp;Merit-cum-Means Scholarship Awardee — RGIPT (25% tuition fee waiver) <br>
+  ★ &nbsp;Dataset Contributor — DriveIndia, TiHAN-IIT Hyderabad (arXiv:2507.19912) <br>
+  ★ &nbsp;Backend Engineering Intern @ FlyRank AI <br>
+  ★ &nbsp;Head — Dev Club, GeeksforGeeks RGIPT Chapter <br>
+  ★ &nbsp;Contributor &amp; Mentor — GirlScript Summer of Code (GSSoC) 2025 <br>
+  ★ &nbsp;Teaching Head — Arpan, RGIPT Social Council <br>
+  ★ &nbsp;Community Intern — RGIPT Outreach Program (Jan–May 2025) <br>
+  <hr>
+`,
 
     socials: () => `
       Find me at: <br>
@@ -206,7 +207,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
 
     resume: () => {
-      window.open("https://drive.google.com/file/d/1fzeYdm0dZIHAs-Whk8YmMClCJDcMMDKk/view?usp=sharing");
+      window.open("https://drive.google.com/file/d/1tDB7n5ATMaJrkj9ee1N5hlCiuveZhYEk/view?usp=drive_link");
       return "Opening resume... May not be the latest! xD<hr>";
     },
 
