@@ -156,7 +156,7 @@ research: () => `
   &nbsp;&nbsp;and textual context carry culturally conflicting signals — a failure mode disproportionately <br>
   &nbsp;&nbsp;affecting non-Western deployment contexts. In collaboration with Suparnojit Sarkar. <br>
   &nbsp;&nbsp;Building on arXiv:2511.17004 · Native Hindi fluency as core research advantage. <br>
-  &nbsp;&nbsp;Target venues: <span style="color:#0cf;">arXiv preprint Q4 2026 · ETH SSRF / DAAD WISE applications</span> <br>
+  &nbsp;&nbsp;Target venues: <span style="color:#0cf;">arXiv preprint Q4 2026</span> <br>
   <hr>
 `,
 
